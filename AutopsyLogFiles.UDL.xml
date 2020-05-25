@@ -1,0 +1,64 @@
+<NotepadPlus>
+    <UserLang name="Autopsy LogFile" ext="log" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="no" allowFoldOfComments="no" foldCompact="no" forcePureLC="2" decimalSeparator="1" />
+            <Prefix Keywords1="no" Keywords2="yes" Keywords3="yes" Keywords4="no" Keywords5="yes" Keywords6="no" Keywords7="yes" Keywords8="yes" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00 01 02 03 04</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">: - &lt; &gt; / . ( ) , </Keywords>
+            <Keywords name="Operators2">E01 == dat jpg png tif gif jpeg tiff psd pdf eps bmp svg docx xlsx mpg mp4 avi </Keywords>
+            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close"></Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">ERROR&#x000D;&#x000A;Error&#x000D;&#x000A;SEVERE</Keywords>
+            <Keywords name="Keywords2">WARN WARNING&#x000D;&#x000A;org.sleuthkit.autopsy.appservices.AutopsyService$AutopsyServiceException&#x000D;&#x000A;java.util.concurrent.ExecutionException&#x000D;&#x000A;org.sleuthkit.autopsy.keywordsearch.KeywordSearchModuleException&#x000D;&#x000A;org.apache.solr.client.solrj.impl.HttpSolrServer$RemoteSolrException&#x000D;&#x000A;java.lang.IllegalArgumentException</Keywords>
+            <Keywords name="Keywords3">DEBUG&#x000D;&#x000A;finished&#x000D;&#x000A;starting&#x000D;&#x000A;closeCurrentCase&#x000D;&#x000A;shutDown&#x000D;&#x000A;stop&#x000D;&#x000A;complete&#x000D;&#x000A;closeAppServiceCaseResources</Keywords>
+            <Keywords name="Keywords4">INFO</Keywords>
+            <Keywords name="Keywords5">java.lang.reflect.Constructor.newInstance&#x000D;&#x000A;java.lang.Thread.run&#x000D;&#x000A;java.util.concurrent.FutureTask.get&#x000D;&#x000A;java.util.concurrent.FutureTask.report&#x000D;&#x000A;java.util.concurrent.FutureTask.run&#x000D;&#x000A;java.util.concurrent.ThreadPoolExecutor$Worker.run&#x000D;&#x000A;java.util.concurrent.ThreadPoolExecutor.runWorker&#x000D;&#x000A;org.python.core.Deriveds.dispatch__init__&#x000D;&#x000A;org.python.core.PyBaseCode.call&#x000D;&#x000A;org.python.core.PyFunction.__call__&#x000D;&#x000A;org.python.core.PyMethod.__call__&#x000D;&#x000A;org.python.core.PyMethod.instancemethod___call__&#x000D;&#x000A;org.python.core.PyObject.__call__&#x000D;&#x000A;org.python.core.PyObject._jcallexc&#x000D;&#x000A;org.python.core.PyObjectDerived.dispatch__init__&#x000D;&#x000A;org.python.core.PyReflectedConstructor.__call__&#x000D;&#x000A;org.python.core.PyReflectedConstructor.constructProxy&#x000D;&#x000A;org.python.core.PyReflectedFunction&#x000D;&#x000A;org.python.core.PyTableCode.call&#x000D;&#x000A;org.python.core.PyType.__call__&#x000D;&#x000A;org.python.core.PyType.type___call__&#x000D;&#x000A;org.python.proxies.Plaso$PlasoIngestModule$615.startUp&#x000D;&#x000A;org.sleuthkit.autopsy.actions.DeleteFileContentTagAction$1&#x000D;&#x000A;org.sleuthkit.autopsy.casemodule.Case&#x000D;&#x000A;org.sleuthkit.autopsy.casemodule.Case.closeAppServiceCaseResources&#x000D;&#x000A;org.sleuthkit.autopsy.casemodule.Case.lambda$doOpenCaseAction$6&#x000D;&#x000A;org.sleuthkit.autopsy.casemodule.Case.open&#x000D;&#x000A;org.sleuthkit.autopsy.casemodule.Case.openAppServiceCaseResources&#x000D;&#x000A;org.sleuthkit.autopsy.centralrepository.datamodel.RdbmsCentralRepo&#x000D;&#x000A;org.sleuthkit.autopsy.centralrepository.ingestmodule.CentralRepoIngestModule&#x000D;&#x000A;org.sleuthkit.autopsy.contentviewers.FileViewer&#x000D;&#x000A;org.sleuthkit.autopsy.contentviewers.MediaFileViewer&#x000D;&#x000A;org.sleuthkit.autopsy.core.Installer&#x000D;&#x000A;org.sleuthkit.autopsy.corecomponents.DataContentViewerHex&#x000D;&#x000A;org.sleuthkit.autopsy.directorytree.ExtractUnallocAction$ExtractUnallocWorker&#x000D;&#x000A;org.sleuthkit.autopsy.geolocation.datamodel.WaypointBuilder&#x000D;&#x000A;org.sleuthkit.autopsy.imagegallery.datamodel.DrawableDB&#x000D;&#x000A;org.sleuthkit.autopsy.imagegallery.ImageGalleryController&#x000D;&#x000A;org.sleuthkit.autopsy.imagegallery.PerCaseProperties&#x000D;&#x000A;org.sleuthkit.autopsy.ingest.DataSourceIngestJob&#x000D;&#x000A;org.sleuthkit.autopsy.ingest.DataSourceIngestJob.start&#x000D;&#x000A;org.sleuthkit.autopsy.ingest.DataSourceIngestJob.startUpIngestPipelines&#x000D;&#x000A;org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline&#x000D;&#x000A;org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$PipelineModule.startUp&#x000D;&#x000A;org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline.startUp&#x000D;&#x000A;org.sleuthkit.autopsy.ingest.IngestJob.start&#x000D;&#x000A;org.sleuthkit.autopsy.ingest.IngestManager&#x000D;&#x000A;org.sleuthkit.autopsy.ingest.IngestManager$StartIngestJobTask.call&#x000D;&#x000A;org.sleuthkit.autopsy.ingest.IngestManager.access$600&#x000D;&#x000A;org.sleuthkit.autopsy.ingest.IngestManager.startIngestJob&#x000D;&#x000A;org.sleuthkit.autopsy.ingest.IngestModule$IngestModuleException&#x000D;&#x000A;org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader&#x000D;&#x000A;org.sleuthkit.autopsy.ingest.IngestMonitor$MonitorTimerAction&#x000D;&#x000A;org.sleuthkit.autopsy.ingest.IngestPipelinesConfiguration&#x000D;&#x000A;org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner&#x000D;&#x000A;org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner$Searcher&#x000D;&#x000A;org.sleuthkit.autopsy.keywordsearch.IngestSearchRunner$SearchJobInfo&#x000D;&#x000A;org.sleuthkit.autopsy.keywordsearch.KeywordSearchGlobalSearchSettingsPanel&#x000D;&#x000A;org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule&#x000D;&#x000A;org.sleuthkit.autopsy.keywordsearch.Server&#x000D;&#x000A;org.sleuthkit.autopsy.modules.dataSourceIntegrity.DataSourceIntegrityIngestModule&#x000D;&#x000A;org.sleuthkit.autopsy.modules.plaso.PlasoIngestModule&#x000D;&#x000A;org.sleuthkit.autopsy.modules.vmextractor.VMExtractorIngestModule&#x000D;&#x000A;org.sleuthkit.autopsy.recentactivity.Chrome&#x000D;&#x000A;org.sleuthkit.autopsy.recentactivity.ExtractIE&#x000D;&#x000A;org.sleuthkit.autopsy.recentactivity.Firefox&#x000D;&#x000A;org.sleuthkit.autopsy.recentactivity.RecentDocumentsByLnk&#x000D;&#x000A;org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer&#x000D;&#x000A;org.sleuthkit.autopsy.texttranslation.translators.GoogleTranslator&#x000D;&#x000A;MacFSEventsIngestModule&#x000D;&#x000A;ParsePlists2DBDelRecIngestModule&#x000D;&#x000A;Plaso$py.call_function&#x000D;&#x000A;Plaso$py.startUp$14&#x000D;&#x000A;PlasoIngestModule&#x000D;&#x000A;ProcessiOSSysdiagnoseIngestModule&#x000D;&#x000A;Remove_ArtifactsIngestModule&#x000D;&#x000A;sun.reflect.DelegatingConstructorAccessorImpl.newInstance&#x000D;&#x000A;sun.reflect.NativeConstructorAccessorImpl.newInstance&#x000D;&#x000A;Windows_InternalsIngestModule&#x000D;&#x000A;lambda$doOpenCaseAction$6&#x000D;&#x000A;openAppServiceCaseResources</Keywords>
+            <Keywords name="Keywords6">getIngestModuleFactories&#x000D;&#x000A;addFactory&#x000D;&#x000A;logMonitoredRootDirectory&#x000D;&#x000A;loadConfigFile&#x000D;&#x000A;logInfoMessage&#x000D;&#x000A;startJob&#x000D;&#x000A;findSearchQueries&#x000D;&#x000A;getRecentDocuments&#x000D;&#x000A;getHistory&#x000D;&#x000A;getCookie&#x000D;&#x000A;getBookmark&#x000D;&#x000A;getAutofillProfiles&#x000D;&#x000A;getFormsHistory&#x000D;&#x000A;getLogins&#x000D;&#x000A;getAutofill&#x000D;&#x000A;getDownload&#x000D;&#x000A;doFinalSearch&#x000D;&#x000A;doInBackground&#x000D;&#x000A;searchNotify&#x000D;&#x000A;loadTranslator&#x000D;&#x000A;getAllWaypoints&#x000D;&#x000A;runSolrCommand&#x000D;&#x000A;setPragmas&#x000D;&#x000A;getConfigSetting&#x000D;&#x000A;getInstance&#x000D;&#x000A;getDownloadPreVersion24&#x000D;&#x000A;getDownloadVersion24&#x000D;&#x000A;openAppServiceCaseResources</Keywords>
+            <Keywords name="Keywords7">RecBin2IngestModule&#x000D;&#x000A;ProcessMacMailIngestModule&#x000D;&#x000A;ProcessTeraCopyDbIngestModule&#x000D;&#x000A;ParseFileHistoryIngestModule&#x000D;&#x000A;ParseSQLiteDBDelRecIngestModule&#x000D;&#x000A;ProcessAppxProgramsIngestModule&#x000D;&#x000A;ProcessSpotlightIngestModule&#x000D;&#x000A;ProcessEmlEmailIngestModule&#x000D;&#x000A;ThumbcacheIngestModule&#x000D;&#x000A;ThumbsIngestModule&#x000D;&#x000A;AndroidIngestModule&#x000D;&#x000A;ProcessActivitiesCacheIngestModule&#x000D;&#x000A;ProcessAppxregProgramsIngestModule&#x000D;&#x000A;ParseSAMIngestModule</Keywords>
+            <Keywords name="Keywords8">finishIngestJob&#x000D;&#x000A;startIngestJob&#x000D;&#x000A;process&#x000D;&#x000A;isRunning&#x000D;&#x000A;endJob&#x000D;&#x000A;startUp&#x000D;&#x000A;ApplicationContentViewer&#x000D;&#x000A;customizeComponents&#x000D;&#x000A;openAsCurrentCase&#x000D;&#x000A;upgradeSchema</Keywords>
+            <Keywords name="Delimiters">00[ 01 02] 03( 04 05) 06Found 07 08version 09&lt; 10 11&gt; 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="&#x8F28;&#x0F7D;" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="000000" bgColor="FFFFFF" fontName="MRU" fontStyle="0" nesting="256" />
+            <WordsStyle name="LINE COMMENTS" fgColor="8000FF" bgColor="FFFFFF" fontName="no" fontStyle="2" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="008040" bgColor="FFFFFF" fontName="&#x7BA8;&#x08AD;" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="FFFFFF" bgColor="FF0000" fontName="0" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="FFFFFF" bgColor="FF8000" fontName="wintypes.dll" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="FFFFFF" bgColor="FF80FF" fontName="0" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="FFFFFF" bgColor="0080FF" fontName="&#x6470;&#x0F88;" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="804000" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="804000" bgColor="80FF80" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="DF7000" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="004000" bgColor="CDFC9A" fontName="" fontStyle="3" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="FF0080" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="FFFFFF" fontName="&#x8F60;&#x0F7D;" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="000000" bgColor="FFFFBF" fontName="no" fontStyle="1" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="800000" bgColor="FFFFAE" fontName="&#x8D28;&#x08A7;1$````&#x000C;" fontStyle="3" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontName="Lucida Sans Unicode" fontStyle="3" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="800080" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
